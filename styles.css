@@ -1,0 +1,56 @@
+
+/**********************
+* Common Colors
+* 
+* Blue: 0060b6
+* Green: 8cff00
+* yellow: fff200
+***********************/
+
+blockquote, body, div, fieldset, form, dl, dd, dt, h1, h2, h3, h4, h5, h6, hr, ol, p, table, ul { margin: 0px; padding: 0px; }
+img { border: 0px; }
+
+body { 
+	background: #0060b6;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #eee;
+}
+
+h1 img { 
+	margin: 15px 40px;
+}
+
+a { 
+	color: #fff200; 
+	text-decoration: none; 
+	font-weight: bold;
+}
+a:hover { 
+	text-decoration: underline;
+}
+	
+p { 
+	margin: 5px 0 15px 0; 
+}
+
+#header { 
+	position: relative; 
+	background: url('images/bg_header2.png') left top repeat-x; 
+	height: 204px; 
+	z-index: 1; 
+}
+
+#main { 
+	margin: 80px 40px 0 40px;
+}
+	
+ul {
+	list-style: none;
+	margin: none;
+}
+
+
+.bubble {
+	position: absolute;
+	z-index: -1;
+}
